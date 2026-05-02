@@ -1,0 +1,6 @@
+| condition | label | split | n | exact_match | exact_match_percent | numeric_n | numeric_accuracy | numeric_accuracy_percent | model_id | adapter_path |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| zero_shot_direct | Baseline / Zero-shot Direct | test | 1250 | 0.6312 | 63.12 | 869 | 0.7514384349827388 | 75.14384349827388 | Qwen/Qwen3-VL-8B-Instruct |  |
+| zero_shot_cot | Zero-shot + CoT | test | 1250 | 0.6792 | 67.92 | 850 | 0.8529411764705882 | 85.29411764705883 | Qwen/Qwen3-VL-8B-Instruct |  |
+| lora_direct | LoRA Direct | test | 1250 | 0.7216 | 72.16 | 871 | 0.7807118254879449 | 78.0711825487945 | Qwen/Qwen3-VL-8B-Instruct | /content/drive/MyDrive/qwen3_chartqa_outputs/qwen3_vl_8b_chartqa_lora |
+| lora_cot | LoRA + CoT | test | 1250 | 0.7008 | 70.08 | 868 | 0.7983870967741935 | 79.83870967741935 | Qwen/Qwen3-VL-8B-Instruct | /content/drive/MyDrive/qwen3_chartqa_outputs/qwen3_vl_8b_chartqa_lora |

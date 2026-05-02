@@ -1,0 +1,2 @@
+{"condition": "smoke_zero_shot_direct", "split": "val", "idx": 0, "imgname": "val_000000.png", "question": "What's the color of graph with 56 as the highest value?", "gold": "Blue", "raw_pred": "Blue", "pred": "Blue", "exact_match": true, "numeric_match": null}
+{"condition": "smoke_zero_shot_direct", "split": "val", "idx": 1, "imgname": "val_000001.png", "question": "In which year the difference between blue and green graph 1?", "gold": "2018", "raw_pred": "2005", "pred": "2005", "exact_match": false, "numeric_match": true}
